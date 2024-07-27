@@ -1,0 +1,304 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'roboto', sans-serif;
+}
+body{
+    background-color: #eeee;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeee;
+    padding:  17px;
+    box-shadow: 0px 2px 2px 2px gray;
+}
+nav .logo{
+    margin-left: 8px;
+    font-size: 24px;
+}
+nav ul{
+    list-style: none;
+    margin-right: 45px;
+    margin-top: 7px;
+}
+nav li a{
+    margin-inline: 22px;
+    font-size: 20px;
+}
+nav li i{
+    font-size: 22px;
+}
+nav li #home{
+    color: rgb(23, 174, 174);
+}
+nav li a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+nav li i:hover{
+    color: gray;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.main .mainText{
+    margin-top: 144px;
+    font-size: 44px;
+}
+.mainText h1{
+    font-size: 64px;
+}
+.mainText .top{
+    color: rgb(9, 160, 160);
+}
+.mainText button{
+    width: 145px;
+    height: 40px;
+    background-color: rgb(4,140,140);
+    font-size: 22px;
+    border: none;
+    color: white;
+    margin-top: 24px;
+}
+.mainText button:hover{
+    border: 2px solid rgb(11, 206, 206);
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+}
+.mainText p{
+    margin-top: 12px;
+    font-size: 22px;
+}
+.main img{
+    height: 80vh;
+    width: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.collection .head,.collections .head{
+    text-align: center;
+    margin-top: 32px;
+    padding: 43px;
+    font-size: 35px;
+    color: rgb(2, 134, 134);
+    text-decoration: bold;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card .crd{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin-inline: 11px;
+    padding: 22px;
+}
+.crd img{
+    width: 95%;
+    height: 75%;
+    border-radius: 31px;
+}
+.crdText{
+    margin-left: 18px;
+    margin-top: 5px;
+    padding: 8px;
+}
+.crdText button{
+    width: 130px ;
+    height: 33px ;
+    background-color: rgb(7, 89, 89);
+    color: white;
+    padding: 8px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+.crdText .icon{
+    margin-top: 5px;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin-inline: 12px;
+    border-radius: 11px;
+}
+.blog img{
+    width: 55%;
+    padding: 8px;
+}
+.blogText{
+    padding: 12px;
+    margin-top: 33px;
+}
+.blogText a{
+    width: 130px;
+    padding: 4px;
+    height: 18px;
+    color: white;
+    background-color: rgb(5, 107, 107);
+    font-size: 18px;
+   top: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+.blog:hover{
+    transition : 0.6s ease;
+    width: 520px;
+    height: 320px;
+}
+.letter{
+    background-color: rgb(3, 3, 66);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 58px;
+}
+.inp{
+    display: flex;
+}
+.letter input{
+    height: 33px;
+    width: 330px;
+    font-size: 18px;
+    outline: none;
+    margin-top: 1rem;
+}
+.inp button{
+    width: 100px;
+    height: 36px;
+    background-color: rgb(8, 182, 182);
+    border: none;
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1.5px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 33px;
+}
+.footer .footerText{
+    margin-inline: 85px;
+}
+.footerText p{
+    margin-top: 11px;
+}
+/* about section */
+.about{
+    display: none;
+}
+.aboutus, .contactus{
+    background-color: rgb(3, 3, 66);
+    color: white;
+    padding: 59px;
+    font-size: 22px;
+    
+}
+.me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 400px;
+    padding: 33px;
+    background-color: white;
+    margin-left: 24%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.me img{
+    width: 54%;
+    height: 54%;
+    padding: 13px;
+}
+
+.contact{
+    display: none;
+} 
+.contactme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    margin-left: 16%;
+    margin-top: 5%;
+    margin-bottom: 5%; }
+.contactme img{
+    width: 60%;
+    height: 100%;
+}
+.contactText{
+    margin-left: 45px;
+    font-size: larger;
+}
+.form{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.form input{
+    height: 27px;
+    width: 300px;
+    margin-top: 11px;
+    padding: 5px;
+}
+.form button{
+    height: 36px;
+    width: 300px;
+    color: white ;
+    background-color: rgb(14, 69, 69);
+    margin-top: 1%;
+    border: none;
+    font-size: 17px;
+}
+ /* cart */ 
+ .cart{
+    display: none;
+    justify-content: center;
+ }
+ .cartText{
+    padding: 22px;
+    margin-top: 22px;
+ }
+ .cartText p{
+    margin-top: 12px;
+ }
+ .cartText h2{
+    margin-top: 11px; }
+.cart .btn button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(161, 115, 30);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+}
+.back{
+    margin-top: 44px;
+    background-color: rgb(17, 88, 88);
+    width: 140px;
+    height: 40px;
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    cursor: pointer;
+}
+.cart img{
+    width: 500px;
+    height: 600px;
+}
